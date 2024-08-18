@@ -57,6 +57,7 @@ h1{
     h1{
         letter-spacing: 5px;
         color: var(--primary-);
+        padding-top: 5px;
     }
 }
 @media(min-width:700px){
