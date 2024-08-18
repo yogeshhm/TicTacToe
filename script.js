@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     $('.container').children().css({
         margin: '10px 0px'
     });
