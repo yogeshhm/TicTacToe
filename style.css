@@ -13,7 +13,6 @@
 
 body{
     max-width: 1200px;
-    border: 1px solid black;
     margin: 0 auto;
     background-color: var(--light-);
 }
@@ -21,8 +20,9 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* height: 100vh;    */
+    height: 100vh;   
     text-align: center;
 }
 
@@ -30,11 +30,9 @@ h1{
     font-size: 2rem;
     letter-spacing: 10px;
     color: var(--primary-);
-    padding-top: 20px;
 }
 
 .message{
-    /* display: none; */
     color: var(--dark-);
     letter-spacing: 1px;
     font-weight: bold;
@@ -78,6 +76,9 @@ h1{
     box-shadow: 1px 1px 1px var(--dark-);
 }
 
-
+#newGameBtn:hover,#resetBtn:hover{
+    background-color: var(--primary-);
+    color: var(--light-);
+}
 
 
