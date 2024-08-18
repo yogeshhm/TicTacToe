@@ -20,7 +20,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;   
     text-align: center;
@@ -30,6 +30,7 @@ h1{
     font-size: 2rem;
     letter-spacing: 10px;
     color: var(--primary-);
+    padding-top: 20px;
 }
 
 .message{
