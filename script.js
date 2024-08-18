@@ -32,7 +32,7 @@ $(document).ready(function(){
             }
             else{
                 box.style.backgroundColor = "#F26F3C";
-                box.innerText = "Y"
+                box.innerText = "O"
                 playerX =true;
             
             }
@@ -58,8 +58,9 @@ $(document).ready(function(){
                             winTxt = "Hurray! Winner is "+pos1+" !";
                             msg.text(winTxt);
                             boxes.prop('disabled',true);
-                            count =0;
+                            count = 0;
                             playerX = true;
+                            confetti();
     
                         }
                     }
@@ -78,6 +79,7 @@ $(document).ready(function(){
         boxes.text("");
         boxes.css('backgroundColor',"");
         msg.text("")
+        count =0;
     }
     
     $('#newGameBtn').click(function(){
